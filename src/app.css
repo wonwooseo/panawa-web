@@ -1,0 +1,21 @@
+body, html {
+  overflow-x: hidden; /* Disable horizontal scrolling */
+  background-color: #f8f9fa; /* Set background color */
+}
+
+.section {
+  padding: 20px; /* Add some padding to sections */
+  background-color: #ffffff; /* Set section background color */
+  margin-bottom: 20px; /* Add space between sections */
+}
+
+footer {
+  padding: 20px; /* Add padding to footer */
+  background-color: #343a40; /* Set footer background color */
+  color: #ffffff; /* Set text color */
+}
+
+/* Adjust margin between navbar and main content */
+.main-content {
+  margin-top: 76px; /* Same height as the navbar + margin between sections*/
+}
