@@ -3,6 +3,10 @@ body, html {
   background-color: #f8f9fa; /* Set background color */
 }
 
+.navbar-brand {
+  margin-left: 20px;
+}
+
 .section {
   padding: 20px; /* Add some padding to sections */
   background-color: #ffffff; /* Set section background color */

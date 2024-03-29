@@ -7,7 +7,8 @@
     "dev": "vite --mode dev",
     "build": "vite build",
     "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json"
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "typesafe-i18n": "typesafe-i18n"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.0.2",
@@ -20,6 +21,7 @@
   },
   "dependencies": {
     "@types/chart.js": "^2.9.41",
-    "chart.js": "^4.4.2"
+    "chart.js": "^4.4.2",
+    "typesafe-i18n": "^5.26.2"
   }
 }
