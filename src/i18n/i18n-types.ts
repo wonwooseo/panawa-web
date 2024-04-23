@@ -15,15 +15,15 @@ export type Translations = RootTranslation
 
 type RootTranslation = {
 	/**
-	 * 테​스​트​ ​섹​션​ ​1
+	 * 오​늘​의​ ​가​격
 	 */
 	TITLE_PRICE: string
 	/**
-	 * 테​스​트​ ​섹​션​ ​2
+	 * 가​격​ ​추​이
 	 */
 	TITLE_TREND: string
 	/**
-	 * 테​스​트​ ​섹​션​ ​3
+	 * 지​역​별​ ​가​격
 	 */
 	TITLE_REGIONALMARKETPRICE: string
 	/**
@@ -73,20 +73,100 @@ type RootTranslation = {
 		 * 대​구
 		 */
 		'0002': string
+		/**
+		 * 인​천
+		 */
+		'0003': string
+		/**
+		 * 광​주
+		 */
+		'0004': string
+		/**
+		 * 대​전
+		 */
+		'0005': string
+		/**
+		 * 울​산
+		 */
+		'0006': string
+		/**
+		 * 세​종
+		 */
+		'0007': string
+		/**
+		 * 수​원
+		 */
+		'0008': string
+		/**
+		 * 성​남
+		 */
+		'0009': string
+		/**
+		 * 고​양
+		 */
+		'0010': string
+		/**
+		 * 용​인
+		 */
+		'0011': string
+		/**
+		 * 춘​천
+		 */
+		'0012': string
+		/**
+		 * 강​릉
+		 */
+		'0013': string
+		/**
+		 * 청​주
+		 */
+		'0014': string
+		/**
+		 * 천​안
+		 */
+		'0015': string
+		/**
+		 * 전​주
+		 */
+		'0016': string
+		/**
+		 * 순​천
+		 */
+		'0017': string
+		/**
+		 * 포​항
+		 */
+		'0018': string
+		/**
+		 * 안​동
+		 */
+		'0019': string
+		/**
+		 * 창​원
+		 */
+		'0020': string
+		/**
+		 * 김​해
+		 */
+		'0021': string
+		/**
+		 * 제​주
+		 */
+		'0022': string
 	}
 }
 
 export type TranslationFunctions = {
 	/**
-	 * 테스트 섹션 1
+	 * 오늘의 가격
 	 */
 	TITLE_PRICE: () => LocalizedString
 	/**
-	 * 테스트 섹션 2
+	 * 가격 추이
 	 */
 	TITLE_TREND: () => LocalizedString
 	/**
-	 * 테스트 섹션 3
+	 * 지역별 가격
 	 */
 	TITLE_REGIONALMARKETPRICE: () => LocalizedString
 	/**
@@ -136,6 +216,86 @@ export type TranslationFunctions = {
 		 * 대구
 		 */
 		'0002': () => LocalizedString
+		/**
+		 * 인천
+		 */
+		'0003': () => LocalizedString
+		/**
+		 * 광주
+		 */
+		'0004': () => LocalizedString
+		/**
+		 * 대전
+		 */
+		'0005': () => LocalizedString
+		/**
+		 * 울산
+		 */
+		'0006': () => LocalizedString
+		/**
+		 * 세종
+		 */
+		'0007': () => LocalizedString
+		/**
+		 * 수원
+		 */
+		'0008': () => LocalizedString
+		/**
+		 * 성남
+		 */
+		'0009': () => LocalizedString
+		/**
+		 * 고양
+		 */
+		'0010': () => LocalizedString
+		/**
+		 * 용인
+		 */
+		'0011': () => LocalizedString
+		/**
+		 * 춘천
+		 */
+		'0012': () => LocalizedString
+		/**
+		 * 강릉
+		 */
+		'0013': () => LocalizedString
+		/**
+		 * 청주
+		 */
+		'0014': () => LocalizedString
+		/**
+		 * 천안
+		 */
+		'0015': () => LocalizedString
+		/**
+		 * 전주
+		 */
+		'0016': () => LocalizedString
+		/**
+		 * 순천
+		 */
+		'0017': () => LocalizedString
+		/**
+		 * 포항
+		 */
+		'0018': () => LocalizedString
+		/**
+		 * 안동
+		 */
+		'0019': () => LocalizedString
+		/**
+		 * 창원
+		 */
+		'0020': () => LocalizedString
+		/**
+		 * 김해
+		 */
+		'0021': () => LocalizedString
+		/**
+		 * 제주
+		 */
+		'0022': () => LocalizedString
 	}
 }
 
