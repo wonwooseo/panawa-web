@@ -60,10 +60,10 @@
 
 <!-- Navbar -->
 <nav class="navbar navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="#">TEST</a>
+  <a class="navbar-brand" href="#">PANAWA</a>
 </nav>
 
-<div class="container main-content">
+<div class="d-flex flex-column min-vh-100 container main-content">
   <!-- price -->
   <div class="section" id="price">
     <h2>{$LL.TITLE_PRICE()}</h2>
@@ -128,7 +128,18 @@
 
 <!-- Footer -->
 <footer class="footer mt-auto py-3">
-  <div class="container text-center">
-    <span class="text-muted">Your Footer Content</span>
+  <div class="container d-flex flex-column text-center">
+    <div class="p-1">
+      {#if lang === 'ko'}
+      <a href="?lang=en">Panawa in English</a>
+      {:else}
+      <a href="/">Panawa in Korean</a>
+      {/if}
+    </div>
+    <div class="p-1">
+      <a href="https://github.com/wonwooseo/panawa-web" target='_blank' rel='noopener noreferrer'>
+        <i class="fa fa-github" style="font-size:24px; color:white"></i>
+      </a>
+    </div>
   </div>
 </footer>
