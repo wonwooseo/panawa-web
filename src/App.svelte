@@ -5,6 +5,7 @@
   import { onMount } from 'svelte';
   import { SUPPORTED_REGIONS } from './lib/const';
   import { fetchPriceData, fetchPriceTrendData, fetchRegionalMarketPriceData } from './lib/api';
+  import logo from './assets/icons8-leek-100.png';
 
   let priceData: any = null;
   let priceTrendData: any = null;
@@ -60,7 +61,10 @@
 
 <!-- Navbar -->
 <nav class="navbar navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="#">PANAWA</a>
+  <a class="navbar-brand" href="#">
+    <img class="logo-img" src={logo} alt="logo" />
+    <span class="logo-text" >PANAWA</span>
+  </a>
 </nav>
 
 <div class="d-flex flex-column min-vh-100 container main-content">

@@ -5,6 +5,16 @@ body, html {
 
 .navbar-brand {
   margin-left: 20px;
+
+  .logo-img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .logo-text {
+    font-size: 30px;
+    vertical-align: middle;
+  }
 }
 
 .section {
@@ -21,5 +31,5 @@ footer {
 
 /* Adjust margin between navbar and main content */
 .main-content {
-  margin-top: 76px; /* Same height as the navbar + margin between sections*/
+  margin-top: 94px; /* Same height as the navbar + margin between sections*/
 }
