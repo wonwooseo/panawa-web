@@ -27,7 +27,7 @@
     if (search.get('lang') === 'en') {
       lang = 'en';
     }
-    switchLocale(lang);
+    await switchLocale(lang);
 
     var low: Number[] = [];
     var average: Number[] = [];
@@ -51,7 +51,7 @@
   }
 
   async function updateRegionalMarketPrice(region: string) {
-    const resp = await fetch(`/api/price/region?region_code=${region}`);
+    const resp = await fetch(`/api/price/region?region_code=${region}&date_unix=${data.price.date_unix}`);
     const price = await resp.json();
     regionalMarketPrice = Object.entries(price);
   }
