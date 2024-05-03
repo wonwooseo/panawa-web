@@ -1,9 +1,10 @@
 import type { BaseTranslation } from '../i18n-types'
 
 const ko = {
-	TITLE_PRICE: '오늘의 가격',
+	TITLE_PRICE: '최신 가격',
 	TITLE_TREND: '가격 추이',
 	TITLE_REGIONALMARKETPRICE: '지역별 가격',
+	PRICE_DATE: '기준일',
 	PRICE_LOW: '최저가',
 	PRICE_AVERAGE: '평균가',
 	PRICE_HIGH: '최고가',

@@ -1,9 +1,10 @@
 import type { Translation } from '../i18n-types'
 
 const en = {
-	TITLE_PRICE: "Today's Price",
+	TITLE_PRICE: "Latest Price",
 	TITLE_TREND: 'Price Trend',
 	TITLE_REGIONALMARKETPRICE: 'Regional Price',
+	PRICE_DATE: 'Date',
 	PRICE_LOW: 'Lowest',
 	PRICE_AVERAGE: 'Average',
 	PRICE_HIGH: 'Highest',

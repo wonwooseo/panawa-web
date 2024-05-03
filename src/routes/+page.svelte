@@ -59,7 +59,7 @@
 
 <!-- Navbar -->
 <nav class="navbar navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="#/">
+  <a class="navbar-brand" href="#">
       <img class="logo-img" src={logo} alt="logo" />
       <span class="logo-text" >PANAWA</span>
   </a>
@@ -68,8 +68,9 @@
 <div class="d-flex flex-column min-vh-100 container main-content">
   <!-- price -->
   <div class="section" id="price">
-    <h2>{$LL.TITLE_PRICE()}</h2>
+    <h2>{$LL.TITLE_PRICE()}</h2> <!-- TODO: 최신 가격, 아래에 기준일 추가-->
     <ul>
+      <li><span>{$LL.PRICE_DATE()}: {new Date(data.price.date_unix * 1000).toLocaleDateString()}</span></li>
       <li><span>{$LL.PRICE_LOW()}: </span>{data.price.low}
       <li><span>{$LL.PRICE_AVERAGE()}: </span>{data.price.average}
       <li><span>{$LL.PRICE_HIGH()}: </span>{data.price.high}
@@ -121,9 +122,9 @@
 <div class="container d-flex flex-column text-center">
     <div class="p-1">
     {#if lang === 'ko'}
-    <a href="?lang=en">Panawa in English</a>
+    <a data-sveltekit-reload href="?lang=en">Panawa in English</a>
     {:else}
-    <a href="/">Panawa in Korean</a>
+    <a data-sveltekit-reload href="/">Panawa in Korean</a>
     {/if}
     </div>
     <div class="p-1">

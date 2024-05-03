@@ -15,7 +15,7 @@ export type Translations = RootTranslation
 
 type RootTranslation = {
 	/**
-	 * 오​늘​의​ ​가​격
+	 * 최​신​ ​가​격
 	 */
 	TITLE_PRICE: string
 	/**
@@ -26,6 +26,10 @@ type RootTranslation = {
 	 * 지​역​별​ ​가​격
 	 */
 	TITLE_REGIONALMARKETPRICE: string
+	/**
+	 * 기​준​일
+	 */
+	PRICE_DATE: string
 	/**
 	 * 최​저​가
 	 */
@@ -158,7 +162,7 @@ type RootTranslation = {
 
 export type TranslationFunctions = {
 	/**
-	 * 오늘의 가격
+	 * 최신 가격
 	 */
 	TITLE_PRICE: () => LocalizedString
 	/**
@@ -169,6 +173,10 @@ export type TranslationFunctions = {
 	 * 지역별 가격
 	 */
 	TITLE_REGIONALMARKETPRICE: () => LocalizedString
+	/**
+	 * 기준일
+	 */
+	PRICE_DATE: () => LocalizedString
 	/**
 	 * 최저가
 	 */
